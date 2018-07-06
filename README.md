@@ -1,2 +1,2 @@
-# mainspring
-primitive to build calendar input React components
+# mainspring :cyclone:
+primitive to build React calendar inputs
