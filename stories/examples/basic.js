@@ -4,10 +4,9 @@ import Mainspring from '../../src';
 function BasicExample(props) {
   return (
     <Mainspring>
-      {(stateAndHelpers) => (
+      {({ today,  }) => (
         <div>
-          {console.log(stateAndHelpers)}
-          {stateAndHelpers.today.toLocaleString()}
+          {console.table(today)}
         </div>
       )}
     </Mainspring>
