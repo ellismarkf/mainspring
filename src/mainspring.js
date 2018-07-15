@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 
 export default class Mainspring extends Component {
   static propTypes = {
-    children: PropTypes.func
+    children: PropTypes.func.isRequired
   }
   getStateAndHelpers = () => ({
     today: DateTime.local(),
